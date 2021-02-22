@@ -169,11 +169,11 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'Tiêu Đề Bài Viết';
+   var tocHead1 = 'TIÊU ĐỀ BÀI VIẾT';
    var tocTool1 = 'Click to sort by title';
-   var tocHead2 = 'Ngày Đăng';
+   var tocHead2 = 'NGÀY';
    var tocTool2 = 'Click to sort by date';
-   var tocHead3 = 'Từ Khóa';
+   var tocHead3 = 'TỪ KHÓA';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
