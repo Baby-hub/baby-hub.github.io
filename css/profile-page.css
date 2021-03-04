@@ -325,7 +325,6 @@
     }
     .pro-col-lg-6, .pro-col-md-12, .pro-col-sm-4 {
         position: relative;
-        width: 100%;
         min-height: 1px;
         padding-right: 15px;
         padding-left: 15px;
