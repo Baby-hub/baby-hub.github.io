@@ -285,7 +285,6 @@
         content: "\f09a";
     }
     .fa-facebook:hover {
-        background-color: #fff;
         color: #fff;
     }
     .button-btn.button-btn-icon:not(.button-btn-footer) i.fa {
