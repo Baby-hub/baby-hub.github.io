@@ -107,8 +107,6 @@
     }
     .cc-profile-image img {
     	position: relative;
-        border-radius: 50%;
-        height: 180px;
         width: 180px;
         padding: 0;
         margin: 0;
@@ -116,6 +114,10 @@
         z-index: 9999;
         -webkit-transition: all .3s ease-out;
         transition: all .3s ease-out;
+    }
+    .Blog .post .post-entry img {
+        border-radius: 50%;
+        height: 180px;
     }
     .profile-img {
     	max-width: 100%;
