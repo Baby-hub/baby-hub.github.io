@@ -226,6 +226,7 @@
     }
     .profile-bttn:hover {
     	background-color: red;
+        color: #fff;
     }
     /* profile-section */
     .profile-section {
