@@ -97,8 +97,8 @@
         border-image-width: initial;
         border-image-outset: initial;
         border-image-repeat: initial;
-        border-radius: 50%;
-        height: 180px;
+        border-radius: 50%!important;
+        height: 180px!important;
         width: 180px;
         position: absolute;
         left: 0;
