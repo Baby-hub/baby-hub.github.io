@@ -284,7 +284,7 @@
     .fa-facebook:before {
         content: "\f09a";
     }
-    .fa-facebook:hover {
+    .fa-twitter, .fa-google-plus, .fa-instagram, .fa-facebook:hover {
         color: #fff;
     }
     .button-btn.button-btn-icon:not(.button-btn-footer) i.fa {
