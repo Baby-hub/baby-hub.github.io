@@ -323,7 +323,13 @@
     	margin-right: -15px;
     	margin-left: -15px;
     }
-    .pro-col-lg-6, .pro-col-md-12, .pro-col-sm-4 {
+    .pro-col-lg-6, .pro-col-md-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .pro-col-sm-4 {
         position: relative;
         min-height: 1px;
         padding-right: 100px;
