@@ -1,0 +1,392 @@
+    *, :after, :before {
+		box-sizing: inherit;
+    }
+    div {
+    	display: block;
+    }
+    .profile-form {
+    	color: #2c2c2c;
+    	font-size: 16px;
+    	-webkit-font-smoothing: antialiased;
+    	margin: 0;
+    	font-weight: 400;
+    	line-height: 1.5; 
+    }
+    .page-profile {
+    	box-sizing: border-box;
+    	font-family: sans-serif;
+    	line-height: 1.15;
+    	-webkit-text-size-adjust: 100%;
+    	-webkit-tap-highlight-color: transparent;
+    }
+    .profile-page-header .button-btn {
+    	width: 140px;
+    }
+    .profile-page-header .profile-page-header-small {
+    	height: 60vh;
+    	max-height: 440px;
+    }
+    .profile-page .profile-page-header{
+    	min-height: 550px;
+    }
+    .profile-page-header {
+    	background: rgba(44, 44, 44, 0.2);
+    	background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
+        background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+    }
+    .profile-page-header {
+    	height: 100vh;
+        max-height: 1050px;
+        padding: 0;
+        color: #FFFFFF;
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+    }
+    .profile-page-header .profile-page-header-image {
+    	position: absolute;
+    	background-size: cover;
+    	background-position: center center;
+    	width: 100%;
+    	height: 100%;
+    	z-index: -1;
+    }
+    .profile-page-header .profile-container {
+    	z-index: 2;
+    }
+    .profile-page-header .profile-container {
+    	height: 100%;
+    	text-align: center;
+    	position: relative;
+    }
+    .profile-container {
+    	margin-right: auto;
+    	margin-left: auto;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	width: 100%;
+    }
+    .profile-page-header .profile-container > .profile-content-center {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	-webkit-transform: translate(50%, 50%);
+    	transform: translate(-50%, -50%);
+    	text-align: center;
+    	padding: 0 15px;
+    	color: #FFFFFF
+    	width: 100%;
+    	max-width: 880px;
+    }
+    .cc-profile-image a:before {
+    	content: "";
+    	border-top-color: rgba(55, 140, 63, 0.6);
+        border-top-style: solid;
+        border-top-width: 15px;
+        border-right-color: rgba(55, 140, 63, 0.6);
+        border-right-style: solid;
+        border-right-width: 15px;
+        border-bottom-color: rgba(55, 140, 63, 0.6);
+        border-bottom-style: solid;
+        border-bottom-width: 15px;
+        border-left-color: rgba(55, 140, 63, 0.6);
+        border-left-style: solid;
+        border-left-width: 15px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        left: 0;
+        opacity: 0.0;
+        z-index: 99;
+    }
+    .cc-profile-image img {
+    	position: relative;
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        z-index: 9999;
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+    }
+    .profile-img {
+    	max-width: 100%;
+    	border-radius: 1px;
+    	vertical-align: middle;
+    	border-style: none;
+    }
+   
+    .profile-page .profile-title {
+    	text-align: center;
+    	margin-top: 30px;
+    }
+    .profile-title {
+    	font-weight: 700;
+    }
+    .profile-h2 {
+    	font-size: 2.5em;
+    	margin-bottom: 30px;
+    }
+    .profile-h2, .profile-h4,
+    .profile-h2, .profile-h4 {
+        font-family: inherit;
+        font-weight: bold;
+        line-height: 1.1;
+        color: inherit;
+    }
+    .profile-page-header .profile-category {
+    	color: rgba(255, 255, 255, 0.5);
+    }
+    .profile-page .profile-category {
+        text-align: center;
+    }
+    .profile-title + .profile-category {
+        margin-top: -25px;
+    }
+    .profile-category {
+    	text-transform: uppercase;
+        font-weight: bold;
+        color: #9A9A9A;
+    }
+    .profile-white-text {
+        color: #fff!important;
+    }
+    .profile-text-p {
+        line-height: 1.61em;
+        margin: -25px 0px 16px;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .button-btn {
+    	border-width: 2px;
+        font-weight: 400;
+        font-size: 0.8571em;
+        line-height: 1.35em;
+        margin: 5px 1px;
+        border: none;
+        padding: 11px 22px;
+        cursor: pointer;
+        border-radius: 25px;
+        display: inline-block;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+    }
+    .profile-bttn {
+    	border-width: 2px;
+        font-weight: bold;
+        font-size: 0.8571em;
+        line-height: 1.35em;
+        margin: 5px 1px;
+        border: none;
+        padding: 11px 22px;
+        cursor: pointer;
+        border-radius: 25px;
+        display: inline-block;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        width: 140px;
+    }
+    .button-btn-primary {
+    	background-color: #ffb00e;
+        color: #FFFFFF;
+    }
+    .profile-mr-2 {
+    	margin-right: .5rem!important;
+    }
+    .pro-a {
+    	touch-action: manipulation;
+    	text-decoration: none;
+    }
+    .profile-smooth-scroll {
+    	opacity: 1;
+    	transform: translate(0) scale(1);
+    	transition-property: opacity,transform;
+    }
+    .profile-bttn:hover {
+    	background-color: red;
+    }
+    /* profile-section */
+    .profile-section {
+    	padding-bottom: 0;
+    }
+    .profile-section {
+    	padding: 70px 0;
+    	position: relative;
+    	background: #FFFFFF;
+    }
+    @media (min-width: 1200px) {
+    .profile-container {max-width: 1140px;}
+    }
+    .profile-page-header:after {
+    	position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        left: 0;
+        top: 0;
+        content: "";
+    }
+    .profile-page .button-profile-container {
+        text-align: center;
+        margin-top: -106px;
+    }
+    .button-btn.button-btn-icon.button-btn-lg {
+    	height: 3.6rem;
+        min-width: 3.6rem;
+        width: 3.6rem;
+
+    }
+    .button-profile-container .button-btn-default {
+        margin-right: 8px;
+    }
+    .button-btn.button-btn-icon {
+    	padding: 0;
+        font-size: 0.9375rem;
+        overflow: hidden;
+        position: relative;
+        line-height: normal;
+    }
+    .button-btn-round {
+        border-width: 1px;
+        border-radius: 30px !important;
+    }
+    .button-btn {
+    	font-weight: 400;
+    	margin: 5px 1px;
+    	border: none;
+    	cursor: pointer;
+    	background-color: #979797;
+    	color: #ffffff;
+    }
+    .fa-facebook:before {
+        content: "\f09a";
+    }
+    .button-btn.button-btn-icon:not(.button-btn-footer) i.fa {
+    	position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-12px, -12px);
+        line-height: 1.5626rem;
+        width: 25px;
+        -webkit-transform: translate(-12px, -12px);
+    }
+    .button-btn.button-btn-icon.button-btn-lg i.fa {
+    	font-size: 1.325rem;
+    }
+    .fa {
+    	display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+    .profile-card {
+    	border: 0;
+        border-radius: 0.1875rem;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        min-width: 0;
+        background-color: #fff;
+        background-clip: border-box;
+        box-sizing: inherit;
+    }
+    .profile-card-vip {
+        opacity: 1;
+        transform: translate(0);
+        transition-property: opacity,transform;
+    }
+    .profile-row {
+    	display: flex;
+    	flex-wrap: nowrap;
+    	margin-right: -15px;
+    	margin-left: -15px;
+    }
+    .pro-col-lg-6, .pro-col-md-12, .pro-col-sm-4, .pro-col-sm-8 {
+    	position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .pro-col-sm-8 {
+       font-weight: 550;
+    }
+    .profile-card .profile-card-body {
+    	min-height: 190px;
+    }
+    .profile-card-body {
+    	flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    	padding: 1.25rem;
+    }
+    .profile-title {
+    	font-weight: 700;
+    }
+    .profile-h4 {
+    	font-size: 1.714em;
+        line-height: 1.45em;
+        margin-bottom: 15px;
+    }
+    .pro-mt-0 {
+        margin-top: 0!important;
+    }
+    .profile-text-uppercase {
+    	text-transform: uppercase!important;
+    }
+    .pro-strong {
+    	font-weight: bolder;
+    }
+    .pro-mt-3 {
+        margin-top: 1rem!important;
+    }
+    @media (min-width: 576px) {
+    .pro-col-sm-8 {
+        flex: 0 0 66.666667%;
+         max-width: 66.666667%;
+     }
+    }
+    .button-btn-fa, .button-btn-twitter,
+    .button-btn-gplus, .button-btn-instagram {
+    	background-color: #979797;
+    }
+    .button-btn-fa:hover {
+    	background-color: #428bca;
+    }
+    .button-btn-twitter:hover {
+    	background-color: #5bc0de;
+    }
+    .button-btn-gplus:hover {
+    	background-color: #ffa700;
+    }
+    .button-btn-instagram:hover {
+    	background: rgb(253,29,29);
+        background: linear-gradient(196deg, rgba(253,29,29,1) 0%, rgba(114,41,131,1) 38%, rgba(198,69,93,1) 57.99999999999999%, rgba(209,70,46,1) 65%, rgba(252,175,69,1) 97%); 
+    }
+    .pro-more-info {
+    	color: #ff5a1d;
+    	font-weight: 600;
+    }
