@@ -229,7 +229,6 @@
     .profile-section {
     	padding: 70px 0;
     	position: relative;
-    	background: #FFFFFF;
     }
     @media (min-width: 1200px) {
     .profile-container {max-width: 1140px;}
