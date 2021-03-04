@@ -403,3 +403,6 @@
     	color: #ff5a1d;
     	font-weight: 600;
     }
+    .dark-mode .profile-card-body {
+        color: #000000;
+    }
